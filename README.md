@@ -20,8 +20,7 @@ Requirements
    $ git clone https://github.com/nerdthatnoonelikes/stonks.git
    ```
 2. ```bash
-   $ cd stonks
-   $ ./install.sh
+   $ curl -fsSL https://raw.githubusercontent.com/nerdthatnoonelikes/stonks/main/install.sh | bash
    ```
 
 Inspired from this [project](https://github.com/jkwill87/stonky)
