@@ -42,5 +42,7 @@ func main() {
 
 	if priceChange < 0 {
 		fmt.Printf(color.RedString("%s  %s   @  %s ﰬ %s   %s\n"), symbol, string(volume), string(priceTraded), string(regMarketChange), string(percentChange))
+	} else if priceChange > 0 {
+		fmt.Printf(color.GreenString("%s  %s   @  %s ﰵ %s   %s\n"), symbol, string(volume), string(priceTraded), string(regMarketChange), string(percentChange))
 	}
 }
