@@ -17,9 +17,6 @@ Requirements
 - Golang 1.16
 
 1. ```bash
-   $ git clone https://github.com/nerdthatnoonelikes/stonks.git
-   ```
-2. ```bash
    $ curl -fsSL https://raw.githubusercontent.com/nerdthatnoonelikes/stonks/main/install.sh | bash
    ```
 
